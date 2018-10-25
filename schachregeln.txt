@@ -1,0 +1,115 @@
+Regeln von Schach
+_________________
+=================
+
+
+Grundregeln
+===========
+
+Schach ist ein Spiel für zwei Spieler. Jeder Spieler hat 16 Spielfiguren: acht Bauern, zwei Türme, zwei Springer, zwei Läufer, eine Königin und einen König. Gespielt wird auf einem 8x8-Felder großem Spielfeld. Die beiden Spieler spielen abwechselnd jeweils einen Zug. Das Spiel ist beendet, wenn einer der Spieler einen anderen Spieler Schachmatt gestellt hat (Sieg) oder ein Schachmatt mit den noch im Spiel befindlichen Figuren nicht mehr möglich ist (Remis).
+Wenn eine Spielfigur auf ein Feld gesetzt wird, auf dem bereits eine gegnerische Figur steht, dann wird diese Figur besiegt und somit aus dem Spiel genommen (Ausnahme: Bauer).
+
+Schach
+------
+
+Eine Spielsituation wird Schach genannt, wenn der König im nächsten gegnerischen Zug angegriffen werden kann.
+
+
+Schachmatt
+----------
+
+Wenn es keinen möglichen Zug gibt um den König aus einer Schachsituation zu befreien.
+
+
+Spielbrett
+----------
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++   t   +   s   +   l   +   d   +   k   +   l   +   s   +   t   +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++   b   +   b   +   b   +   b   +   b   +   b   +   b   +   b   +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++   b   +   b   +   b   +   b   +   b   +   b   +   b   +   b   +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++       +       +       +       +       +       +       +       +
++   t   +   s   +   l   +   d   +   k   +   l   +   s   +   t   +
++       +       +       +       +       +       +       +       +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	Abb. 1, Startaufstellung
+
+
+Spielfiguren
+============
+
+Bauer (Abb. 1: b)
+-----------------
+
+Der Bauer ist die häufigste Figur auf dem Schachbrett. In der Startaufstellung stehen die Bauern als "Schutzwall" vor den anderen Figuren (siehe Abb. 1).
+
+Der Bauer bewegt sich unterschiedlich, je nachdem, ob er angreift oder nicht. Wenn er nicht angreift bewegt sich der Bauer ein Feld gerade nach vorne oder kann, falls der Bauer noch nicht bewegt wurde, sich auch zwei Felder nach vorne bewegen. Wenn der Bauer angreift bewegt er sich ein Feld diagonal nach vorne.
+
+Wenn ein Bauer das gegenüberliegende Ende des Spielfelds erreicht kann dieser umgewandelt werden. In dieser Version von Schach wird der Bauer der Einfachkeit halber immer in eine Dame verwandelt.
+
+Turm (Abb. 1: t)
+----------------
+
+Der Turm kann sich in einer horizontalen oder vertikalen Linie unbegrenzt weit bewegen. Er kann dabei allerdings keine anderen Figuren überspringen.
+
+Springer (Abb. 1: s)
+--------------------
+
+Der Springer bewegt sich durch einen Schritt, entweder horizental oder vertikal, und zwei Schritte in die andere Richtung. Er bewegt sich also immer in einer "L"-Form. Der Springer kann auf dem Weg liegende Figuren überspringen.
+
+Läufer (Abb. 1: l)
+------------------
+
+Der Läufer bewegt sich (analog zum Turm) auf einer diagonalen Linie. Er kann ebenfalls keine Figuren überspringen.
+
+Dame (Abb. 1: d)
+----------------
+
+Die Dame ist die mächtigste Figur auf dem Spielfeld. Sie kann sich - wie ein Turm - horizontal und vertikal und zusätzlich auch - wie ein Läufer - diagonal bewegen. Die Dame kann keine Figuren überspringen.
+
+König (Abb. 1: k)
+-----------------
+
+Der König ist die wichtigste Figur auf dem Spielfeld. Er kann sich wie die Dame in alle Richtungen bewegen, allerdings immer nur ein Feld weit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
